@@ -306,7 +306,7 @@ Box.Application.addModule('step-ask-who', function(context) {
             invitationEl.find('[name="inviter"]').text(APP_SESSION.name);
             invitationEl.find('[name="date"]').text(dateText);
             invitationEl.find('[name="place"]').text(APP_SESSION.placeName);
-            var mapUrl = 'http://clcf.la/r' + APP_SESSION.placeId;
+            var mapUrl = 'http://clcf.la/#' + APP_SESSION.placeId;
             $(moduleEl).find('[name="share-link-a"]').attr('href',mapUrl).text(mapUrl);
             $(moduleEl).find('input[name="name"]').removeClass('error');
             invitationEl.show();
