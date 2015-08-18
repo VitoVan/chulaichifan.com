@@ -124,7 +124,7 @@ button.normal:active{
     height: 30px;
     position: relative;
     width: 100%;
-    text-align: left;
+    text-align: center;
 }
 .head>a{
     cursor: pointer;
