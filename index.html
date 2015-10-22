@@ -2,7 +2,7 @@
 <html>
   <head>
     <script type="text/javascript">
-     if(document.URL.contains('#')){
+     if(document.URL.indexOf('#') !== -1){
        var mapUrl = document.URL.replace('http://clcf.la/#','http://m.amap.com/detail/mapview/poiid=');
        window.location = mapUrl;
      }
