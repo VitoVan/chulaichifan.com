@@ -1,2 +1,0 @@
-# chulaichifan.com
-# clcf.la
